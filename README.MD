@@ -10,6 +10,9 @@ Scripts to give an LLM a personality by using Supervised Finetuning (SFT) with a
    ```
 2. Download the dataset file provided or create your own dataset tailored to the personality you aim to model.
 
+## Dataset
+- https://huggingface.co/datasets/jubba/silverhand_sft
+
 ## Usage
 
 1. Run the finetuning script:
@@ -47,6 +50,9 @@ accelerate config
 accelerate finetune_mistral_ddp.py
 ```
 For further details on Accelerate configuration, consult the [Hugging Face Accelerate documentation](https://huggingface.co/docs/trl/main/en/customization).
+
+## Finetuned weights
+- https://huggingface.co/jubba/silverhand_mistral7b_v0_1_GGUF
 
 ## License
 
